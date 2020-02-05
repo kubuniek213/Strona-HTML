@@ -1,3 +1,8 @@
 body{
-    background-color: rgb(40, 103, 238);
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 170, 0);
+}
+
+h1,h2,h3,h4,h5,h6{
+    text-align: center
 }
