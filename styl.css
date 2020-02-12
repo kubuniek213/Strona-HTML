@@ -1,3 +1,8 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
 body{
     background-color: rgb(255, 255, 255);
     color: rgb(255, 170, 0);
@@ -7,5 +12,17 @@ h1,h2,h3,h4,h5,h6{
     text-align: center
 }
 footer{
-    text-align: center
+    clear: both;
+    position: relative;
+    text-align: center;
+    margin-bottom: 10px;
+}
+#menu{
+    float:left;
+    width:20%;
+    height: 100%;
+}
+#content{
+    float:right;
+    width: 80%;
 }
