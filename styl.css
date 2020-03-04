@@ -35,6 +35,7 @@ footer{
     background: rgb(252,176,69);
     background: linear-gradient(0deg, rgba(252,176,69,1) 0%, rgba(253,29,29,1) 50%, rgba(131,58,180,1) 100%);
 padding:2% 0;
+margin-bottom: 2%
 }
 
 ul {
@@ -56,3 +57,10 @@ ul {
     background-color: rgb(255, 136, 0);
     color: white;
   }
+
+  .nav-link:hover {
+    color: #fff;
+    background-color: #007bff;
+
+    border-radius: .25rem;
+}
